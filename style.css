@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Oswald', sans-serif;
+}
+.container-1{
+    display: flex;
+    background-color: #000;
+}
+.Top .logo{
+    width: 43px;
+    height: 30px;
+}
+.Top .container-1{
+    padding: 0.3em 1em 0.4em 1em;
+    display: flex;
+    place-content: space-between;
+}
+.Top h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFF;
+}
+.container-1 h3{
+    position: absolute;
+    top: 1.3em;
+    left: 4.2em;
+    font-size: 0.9em;
+}
+nav{
+    display: none;
+}
+
+nav.menu-btn{
+    display: block;
+}
+
+nav{
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background-color: #20212E;
+    height: 100vh;
+    padding: 1em;
+}
+
+nav ul.primary-nav{
+    margin-top: 5em;
+}
+nav ul.primary-nav li{
+    list-style: none;
+}
+
+#menu{
+    cursor: pointer;
+}
+
+nav ul.primary-nav li a{
+    color: #FFF;
+    font-weight: 400;
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+    padding: .5em;
+    text-align: right;
+
+}
+
+nav ul.primary-nav li a:hover{
+    font-weight: bolder;
+}
+.links a{
+    text-decoration: none;
+}
+
+.navbar .exit{
+    color: #FFF;
+    margin: .5em;
+    cursor: pointer;
+    height: 25px;
+    float: right;
+}
+
+.conatiner-2{
+    background-color: #F54739;
+    display: flex;
+}
+.conatiner-2 .location{
+    position: absolute;
+    top: 52px;
+    left: 6px;
+    width: 12px;
+    height: 12px;
+}
+.conatiner-2 p{
+    padding: 1em 0 1em 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FFF;
+    font-size: 0.6em;
+}
+
+.conatiner-2 .line{
+    position: absolute;
+    top: 50px;
+    right: 120px;
+}
+
+.conatiner-2 .mobile{
+    position: absolute;
+    top: 53px;
+    right: 90px;
+    width: 14px;
+    height: 14px;
+}
+.conatiner-2 h3{
+    position: absolute;
+    top: 54px;
+    right: 10px;
+ font-size: 0.7em;   
+}
+
+.container-3{
+    background-color: #252525;
+}
+.right img{
+    align-items: center;
+    padding: 1em 0 0 0;
+    width: 275px;
+    height: 323px;
+}
+.right h1{
+    
+    transform: rotate(270deg);
+    color: #575454;
+    position: absolute;
+    font-size: 2.5em;
+    top: 177px;
+    left: 240px;
+}
+.left{
+    display: none;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-sec{
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color:#F54739 ;
+    color: #FFF;
+}
+
+.join{
+    background-color: #4C4A4A;
+    text-align: center;
+}
+.join h1,h3{
+    color: #FFF;
+    font-family: 'Oswald', sans-serif;
+}
+.join h3{
+    padding-bottom: 3.5em;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+.join button{
+    cursor: pointer;
+    margin-bottom: 3em;
+    color: #FFF;
+    background-color: #F54739;
+    outline: none;
+    border: none;
+    padding: 0.4em;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 0.2em;
+    
+}
+.join h1{
+    padding-top: 2em;
+}
+.sub{
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+    
+    
+}
+
+.price{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4C4A4A;
+    width: auto;
+    height: 772px;
+}
+
+.basic, .pt{
+    border-radius: 12px;
+    margin-bottom: 3em;
+    background-color: #FFF;
+    height: 300px;
+    width: 207px;
+}
+.months{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7em;
+    padding: 0.1em 0 0.1em 0;
+    background-color: #F54739 ;
+    color: #FFF;
+}
+.months-price{
+    margin-top: 0.3em;
+}
+.basic-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0 0;
+    background-color: #CA3F34;
+    color: #FFF;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 1.2em;
+}
+.months-top{
+    display: flex;
+    justify-content: center;
+    padding: 0.1em 0 0.1em 0;
+    background-color: #F54739 ;
+    color: #FFF;
+}
+.monthsy{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7em;
+    padding: 0.1em 0 0.1em 0;
+    background-color: #F6D20B ;
+    color: #FFF;
+
+}
+.months-topy{
+    display: flex;
+    justify-content: center;
+    padding: 0.1em 0 0.1em 0;
+    background-color: #F6D20B ;
+    color: #FFF;
+}
+.pt-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 12px 0 0;
+    background-color: #CEAF09;
+    color: #FFF;
+    padding: 0.5em 0 0.5em 0;
+    font-size: 1.2em;
+
+}
+
+.gym-hour{
+    background-color: #252525;
+    color:#FFF;
+    height:430px;
+}
+.timing{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+hr{
+    margin: 0 15px 0 15px;
+}
+
+span{
+    position: relative;
+    left: -90px;
+    color: #F54739;
+}
+.sub-heading{
+    margin-left: 1em;
+    margin-bottom: 3em;
+}
+.heading{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    margin-left: 1em;
+}
+
+.suba{
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+    text-align: center;
+    background-color: #F54739;
+    color: #FFF;   
+}
+
+.abs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #4C4A4A;
+    height: 250px;
+}
+.profile{
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+.name h1{
+    margin-top: 10px;
+    color: #FFF;
+    text-align: center;
+}
+.found h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    font-size: 17px;
+    color: #FFF;
+    text-align: center;
+}
+
+.links{
+    margin-top: 20px;
+}
+
+.img{
+    padding-right: 15px;
+}
+
+.mySwiper{
+    height: 350px;
+}
+.swiper-wrapper{
+    align-items: center;
+  
+}
+.swiper-slide{
+    width: 248px;
+    height: 251px;
+    border-radius: 7px;
+}
+
+.swiper-slide img{
+    border-radius: 7px;
+    padding: 0.1em;
+    width: 249px;
+    height: 250px;
+}
+.swiper-slide-active{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+.slider-img{
+    background-color: #4C4A4A;
+}
+.info{
+    color: #FFF;
+    padding: 15px;
+    background-color: #4C4A4A;
+}
+.found h5{
+    text-align: center;
+    padding-top: 5px;
+    color: #FFF;
+}
